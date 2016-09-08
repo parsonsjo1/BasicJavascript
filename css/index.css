@@ -1,0 +1,38 @@
+body {
+	background: url("../img/cork-wallet.png");
+}
+
+.row {
+	clear:both;
+}
+
+.buttons button {
+	background: url("../img/cork-wallet.png");
+
+	font-size: 18pt;
+	font-family: Times;
+
+	display: block;
+	float: left;
+
+	width: 8em;
+	height: 2em;
+	
+
+	border-radius: 0.5em;
+	border: 0.1em solid red;
+	box-shadow: 0.3em 0.3em 0.25em grey;
+
+	margin-left: 1em;
+	margin-bottom: 1.5em;
+}
+
+.buttons button:hover {
+	box-shadow: 0.3em 0.3em grey;
+}
+
+p {
+	font-size: 20pt;
+
+	margin-left: 1em;
+}
