@@ -6,7 +6,7 @@ body {
 	clear:both;
 }
 
-.buttons button {
+.button button {
 	background: url("../img/cork-wallet.png");
 
 	font-size: 18pt;
@@ -17,22 +17,53 @@ body {
 
 	width: 8em;
 	height: 2em;
-	
 
 	border-radius: 0.5em;
 	border: 0.1em solid red;
 	box-shadow: 0.3em 0.3em 0.25em grey;
 
-	margin-left: 1em;
+	margin-right: 1em;
 	margin-bottom: 1.5em;
 }
 
-.buttons button:hover {
+.button button:hover {
+	cursor: pointer;
 	box-shadow: 0.3em 0.3em grey;
 }
 
-p {
-	font-size: 20pt;
+.button button:active {
+	margin-left: .8em;
+	margin-right: 0.2em;
+	margin-top: 0.2em;
+	margin-bottom: 1.3em;
+	box-shadow: 0em 0em grey;
+}
 
-	margin-left: 1em;
+p {
+	font-size: 10em;
+	margin-left: 0.2em;
+}
+
+#secret_header {
+	position: absolute;
+	bottom: 12em;
+	right: 7em;
+}
+
+#secret_down_arrow {
+	position: absolute;
+	bottom: 6em;
+	right: 6em;
+	height: 3em;
+}
+
+#secret_button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+}
+
+#secret_button:hover {
+	opacity: 100;
 }

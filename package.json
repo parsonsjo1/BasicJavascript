@@ -1,0 +1,23 @@
+{
+  "name": "basicjavascript",
+  "version": "1.0.0",
+  "description": "CS 256 Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsonsjo1/BasicJavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parsonsjo1/BasicJavascript/issues"
+  },
+  "homepage": "https://github.com/parsonsjo1/BasicJavascript#readme",
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "gulp": "^3.9.1"
+  }
+}
